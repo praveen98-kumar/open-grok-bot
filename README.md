@@ -8,6 +8,9 @@ Run it on your own VPS. Use it from your desktop or phone in the browser.
 
 > Status: design phase. Nothing works yet. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
+> **Working name.** "Grok" is xAI's trademark. We must rename the project before we
+> wrap up and release. See [Before release: rename](#before-release-rename).
+
 ## Goals
 
 - Multiple named Bots, each with its own chat and memory, plus a primary Bot that coordinates them
@@ -35,6 +38,19 @@ open-grok-bot/
 ## Getting started
 
 TBD.
+
+## Before release: rename
+
+"Open Grok Bot" is a working name only. "Grok" and "Grok Bot" belong to xAI, so we
+will rename the project before the first release to avoid trademark and copyright
+problems. The rename touches:
+
+- the repo and folder name (`open-grok-bot`)
+- package names in `package.json` files (`open-grok-bot`, `@open-grok-bot/*`)
+- the copyright line in `LICENSE`
+- this README, `docs/`, and code comments
+
+Find every spot with `git grep -i grok`.
 
 ## Contributing
 

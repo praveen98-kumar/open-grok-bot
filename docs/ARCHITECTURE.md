@@ -4,6 +4,10 @@ A self-hosted, open source take on xAI's **Grok Bot** (the "AI teammates on a cl
 computer" product, `@bot` on X). Everything runs on one Linux VPS you own. You use it
 from a browser on your desktop or phone.
 
+> **Rename before release.** "Open Grok Bot" is a working name. "Grok" is xAI's
+> trademark, so we rename the project before we wrap up. See step 11 in §12 and
+> [README.md](../README.md#before-release-rename).
+
 ## 1. What Grok Bot is (what we're cloning)
 
 Taken from xAI's docs (docs.x.ai/grok-bot) as of Nov 2026:
@@ -354,6 +358,8 @@ memory cost. LLM inference is remote, so no GPU is needed.
 8. **MCP apps.**
 9. **Telegram, then X, then Slack.**
 10. Voice, per-Bot displays, templates.
+11. **Rename before release:** pick a new name without "Grok" (xAI's trademark).
+    Update the repo, package names, `LICENSE`, docs, and code. Check with `git grep -i grok`.
 
 Each step ends with something you can use from your desktop.
 

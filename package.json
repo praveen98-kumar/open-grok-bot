@@ -5,7 +5,8 @@
   "license": "MIT",
   "engines": { "node": ">=22" },
   "scripts": {
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "dev": "pnpm --filter @open-grok-bot/web dev"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",

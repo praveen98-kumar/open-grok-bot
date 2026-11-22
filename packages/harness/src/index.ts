@@ -1,5 +1,6 @@
 // The one seam between Open Grok Bot and any agent harness
 // (Claude Code, Codex, Pi, ...). Each adapter implements `Harness`.
+// NOTE: "Open Grok Bot" is a working name. We rename before release (see README).
 
 export type HarnessId = "claude-code" | "codex" | (string & {});
 
